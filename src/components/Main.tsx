@@ -25,6 +25,7 @@ const Main = (props: PropsMainInterface) => {
               <section key={index} className="contianer-box-link">
                 <a
                   href={data.original_link}
+                  rel="noreferrer"
                   target="_blank"
                   className="font-500 very-dark-violet"
                 >
@@ -33,6 +34,7 @@ const Main = (props: PropsMainInterface) => {
                 <div className="container-link-btn">
                   <a
                     href={data.full_short_link}
+                    rel="noreferrer"
                     target="_blank"
                     className="font-500 cyan"
                   >
@@ -62,6 +64,7 @@ const Main = (props: PropsMainInterface) => {
                 <div className="container-link-header-mobile">
                   <a
                     href={data.original_link}
+                    rel="noreferrer"
                     target="_blank"
                     className="font-500 very-dark-violet"
                   >
@@ -71,6 +74,7 @@ const Main = (props: PropsMainInterface) => {
                 <div className="container-link-btn-mobile">
                   <a
                     href={data.full_short_link}
+                    rel="noreferrer"
                     target="_blank"
                     className="font-500 cyan"
                   >
