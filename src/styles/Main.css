@@ -1,0 +1,90 @@
+.container-main {
+  padding: 109px 211.1px 48px 211.1px;
+  background-color: #f0f1f6;
+}
+
+.contianer-box-link {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.container-link-btn {
+  display: flex;
+  align-items: center;
+}
+
+.container-btn-copy {
+  margin-left: 24px;
+}
+
+.container-advance {
+  text-align: center;
+  margin-top: 121px;
+}
+
+.desc-main {
+  padding-right: 350px;
+  padding-left: 350px;
+}
+
+.container-image-feature {
+  justify-content: center;
+  margin-top: 12px;
+  display: flex;
+}
+
+.container-books {
+  background-image: url("../assets/images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #3b3054;
+  padding: 40px 164px 40px 164px;
+  text-align: center;
+}
+
+.container-btn-started {
+  margin-top: 24px;
+}
+
+@media only screen and (max-width: 426px) {
+  .container-main {
+    padding: 16px;
+  }
+
+  .contianer-box-link-mobile {
+    background-color: white;
+    border-radius: 16px;
+  }
+
+  .container-card-mobile {
+    margin-top: 100px;
+  }
+
+  .container-link-header-mobile {
+    padding: 16px;
+    border-bottom: 1px solid #bfbfbf;
+  }
+
+  .container-link-btn-mobile {
+    padding: 16px;
+  }
+
+  .desc-main {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .container-advance {
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .container-books {
+    background-image: url("../assets/images/bg-boost-mobile.svg");
+    padding: 16px;
+  }
+}

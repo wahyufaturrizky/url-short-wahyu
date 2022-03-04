@@ -1,0 +1,58 @@
+.button-outlined {
+  width: 104px;
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-rounded {
+  border: none;
+  background-color: #2acfcf;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.button-normal {
+  border: none;
+  border-radius: 8px;
+}
+
+.button-rounded:hover {
+  opacity: 0.4;
+}
+
+.button-rounded:active {
+  opacity: 0.7;
+}
+
+.button-normal:hover {
+  opacity: 0.4;
+}
+
+.button-normal:active {
+  opacity: 0.7;
+}
+
+.text-btn-rounded {
+  color: white;
+  font-size: 16px;
+}
+
+.text-btn-normal {
+  color: white;
+  font-size: 16px;
+}
+
+.text-btn-outlined {
+  color: #bfbfbf;
+  font-size: 16px;
+}
+
+.text-btn-outlined:hover {
+  color: #3b3054;
+}
+
+.text-btn-outlined:active {
+  color: #232127;
+}

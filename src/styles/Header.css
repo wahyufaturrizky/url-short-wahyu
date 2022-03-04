@@ -1,0 +1,134 @@
+.container-header {
+  padding: 46px 164px 252px 164px;
+  background-image: url("../assets/images/illustration-working.svg");
+  background-repeat: no-repeat;
+  background-position: 120% 53%;
+  position: relative;
+}
+
+.container-main-box {
+  width: 1097px;
+  border-radius: 16px;
+  padding: 40px;
+  background-color: #3b3054;
+  background-image: url("../assets/images/bg-boost-desktop.svg");
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: -70px;
+  position: absolute;
+}
+
+.container-box {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  color: #bfbfbf;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.menu:hover {
+  color: #3b3054;
+}
+
+.container-menu {
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.container-logo-menu {
+  display: flex;
+  align-items: center;
+}
+
+.cotnainer-header-button {
+  align-items: center;
+  display: flex;
+}
+
+.container-intro {
+  margin-top: 131px;
+}
+
+.container-desc-intro {
+  width: 649px;
+}
+
+.font-size-intro {
+  font-size: 91px;
+}
+
+.line-height-intro {
+  line-height: 73px;
+}
+
+.container-btn-short {
+  margin-left: 24px;
+}
+
+@media only screen and (max-width: 426px) {
+  .container-box {
+    flex-direction: column;
+  }
+
+  .container-main-box {
+    width: 100%;
+    padding: 16px;
+    bottom: -95px;
+  }
+
+  .font-size-intro {
+    font-size: 32px;
+  }
+
+  .text-desc-mobile {
+    font-size: 12px;
+  }
+
+  .container-desc-intro {
+    width: 100%;
+    margin-bottom: 97px;
+  }
+
+  .line-height-intro {
+    line-height: normal;
+  }
+
+  .text-center-mobile {
+    text-align: center;
+  }
+
+  .container-header {
+    padding: 16px 16px 16px 16px;
+    background-image: none;
+  }
+
+  .container-intro {
+    margin-top: 16px;
+  }
+
+  .container-menu-nav-mobile {
+    background-color: #3b3054;
+    border-radius: 16px;
+    padding: 36px;
+    text-align: center;
+  }
+
+  .container-mobile-btn-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
